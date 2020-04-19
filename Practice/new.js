@@ -63,22 +63,60 @@ if (a < 4) {
 
 
 // Conditional statement
-var pratice = 5;
+// var pratice = 5;
 
-switch (pratice) {
-    case 5:
-        document.write("case 1 is true");
-        break;
-    default:
-        document.write("case not meet!")
+// switch (pratice) {
+//     case 5:
+//         document.write("case 1 is true");
+//         break;
+//     default:
+//         document.write("case not meet!")
 
+
+
+// }
+
+// var myArray = [1, 2];
+// console.log(myArray[0]);
+
+// var myObject = { age: "27", name: "Josh" };
+// console.log(myObject.name)
+
+alert("How many chicken wings do you have?");
+
+
+
+var personOne = confirm("do you eat wings");
+
+var reponseOne = prompt("how many wings would you like");
+
+
+alert(personOne);
+alert(reponseOne);
+
+// Going over object synatx
+
+var person = {
+
+    fristName: 'Joshua',
+    lastName: 'Coleman',
+    age: 27,
+    career: "Singer",
+    address: {
+
+        street: "dajalajljfjljslds",
+        zip: 19000,
+
+
+    }
 
 
 }
 
-var myArray = [1, 2];
-console.log(myArray[0]);
 
-var myObject = { age: "27", name: "Josh" };
-console.log(myObject.name)
+// Test
+
+console.log(person.fristName);
+
+console.log(person.address.street);
 
