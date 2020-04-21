@@ -82,41 +82,51 @@ if (a < 4) {
 // var myObject = { age: "27", name: "Josh" };
 // console.log(myObject.name)
 
-alert("How many chicken wings do you have?");
+// alert("How many chicken wings do you have?");
 
 
 
-var personOne = confirm("do you eat wings");
+// var personOne = confirm("do you eat wings");
 
-var reponseOne = prompt("how many wings would you like");
-
-
-alert(personOne);
-alert(reponseOne);
-
-// Going over object synatx
-
-var person = {
-
-    fristName: 'Joshua',
-    lastName: 'Coleman',
-    age: 27,
-    career: "Singer",
-    address: {
-
-        street: "dajalajljfjljslds",
-        zip: 19000,
+// var reponseOne = prompt("how many wings would you like");
 
 
-    }
+// alert(personOne);
+// alert(reponseOne);
+
+// // Going over object synatx
+
+// var person = {
+
+//     fristName: 'Joshua',
+//     lastName: 'Coleman',
+//     age: 27,
+//     career: "Singer",
+//     address: {
+
+//         street: "dajalajljfjljslds",
+//         zip: 19000,
 
 
-}
+//     }
 
 
-// Test
+// }
 
-console.log(person.fristName);
+// // Test
 
-console.log(person.address.street);
+// console.log(person.fristName);
+
+// console.log(person.address.street);
+
+// Building arrays
+
+var animals = ["lion", "zebra", "bear", "brid"];
+
+
+console.log(animals.length);
+
+console.log(animals[0]);
+
+console.log(animals[1]);
 
